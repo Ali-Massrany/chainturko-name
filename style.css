@@ -14,6 +14,17 @@ body {
 .content {
   position: relative;
 }
+.container{
+  position: relative;
+}
+img{
+  height: 140px;
+  width: 140px;
+  position: absolute;
+  right: 349px;
+    top: -83px;
+}
+
 .content h2 {
   position: absolute;
   /* color: #fff; */
@@ -22,11 +33,12 @@ body {
 }
 .content h2:nth-child(1) {
   color: transparent;
-  -webkit-text-stroke: 1px #16e39f;
+  -webkit-text-stroke: 1px #17d394;
 }
 .content h2:nth-child(2) {
-  color: #16e39f;
-  animation: animate 4s ease-in-out infinite;
+  color: rgb(9, 189, 138);
+  /* color: #16e39f; */
+  animation: animate 1s ease-in-out infinite;
 }
 @keyframes animate {
   0%,
